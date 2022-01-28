@@ -1,0 +1,49 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 500ms;
+}
+
+.nav_black {
+  background-color: rgba(17, 17, 17, 0.99);
+}
+
+.nav_logo {
+  background: "../assets/anime_logo.png" no-repeat;
+  position: fixed;
+  left: 20px;
+  height: 30px;
+  transition: transform 500ms;
+}
+
+.nav_search_icon {
+  position: fixed;
+  padding-top: 5px;
+  right: 80px;
+  height: 20px;
+  transition: transform 250ms;
+}
+
+.nav_profile_icon {
+  position: fixed;
+  right: 20px;
+  height: 30px;
+  transition: transform 250ms;
+}
+
+.nav_logo:hover {
+  transform: scale(1.25);
+}
+
+.nav_search_icon:hover {
+  transform: scale(1.4);
+}
+.nav_profile_icon:hover {
+  transform: scale(1.25);
+}

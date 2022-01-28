@@ -2,6 +2,10 @@
   margin-left: 20px;
 }
 
+.row_title {
+  color: white;
+}
+
 .row_posters {
   display: flex;
   overflow-y: hidden;
@@ -14,10 +18,11 @@
 }
 
 .row_poster {
-  height: 200px;
-  width: 140px;
+  height: 14rem;
+  width: 10rem;
   margin-right: 10px;
   transition: transform 500ms;
+  transition-delay: 50ms;
   object-fit: cover;
   flex-shrink: 0;
 }
